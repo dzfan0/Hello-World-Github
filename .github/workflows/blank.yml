@@ -8,8 +8,7 @@ steps:
 - name: Print a greeting
 env:
 MY_VAR: Hi there! My name is
-FIRST_NAME: Mona
-MIDDLE_NAME: The
-LAST_NAME: Octocat
+FIRST_NAME: Dezen
+LAST_NAME: Fan
 run: |
 echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
